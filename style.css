@@ -1,0 +1,165 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/fons.jpg);
+    position: relative;
+}
+
+h1 {
+font-size: 4rem;
+}
+
+.cap h1 .parte1, .cap h1 .parte3 {
+    color: black; 
+}
+
+.cap h1 .parte2 {
+    color: grey;
+}
+
+.cap img {
+    width: 800px;
+}
+
+.cap {
+    text-align: center;
+    padding: 20px;
+    color: black;
+    height: 589px;
+}
+
+.cos {
+    width: 100%;
+    padding: 20px 0;
+}
+
+
+.cos ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    max-width: 960px;
+}
+
+.cos li {
+    float: left;
+    height: ; 
+    color: black;
+    margin: 5px; 
+    font-size: 1rem;
+}
+
+.cos li p {
+    background-color: #fff; 
+    margin: 0; 
+    display: inline-block; 
+    width: 100%;
+    height: 40px;
+    text-align: left;
+}
+
+.cos li img {
+    height: 200px;
+    display: block;
+    opacity: 50%;
+}
+
+.cos li img:hover {
+    opacity: 100%; 
+}
+
+.peu {
+    height: 220px;
+    text-align: center;
+    clear: both; 
+}
+
+.diagonal {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    background: linear-gradient(37deg, #FFFFF0 50%, #FFC1CC 50%); 
+    top: 0;
+    left: 0;
+    z-index: -1; 
+    opacity: 0.7; 
+}
+
+
+@media screen and (min-width: 940px)
+{
+
+   .cos li {
+    display:;
+   }
+
+}
+
+
+@media screen and (max-width: 940px)
+{
+  h1 {
+    font-size: 2rem;
+  }
+
+  .cap {
+    height:;
+  }
+
+  .cap img {
+    width: 300px;
+}
+
+  .cos {
+    height: 100%;
+  }
+
+  .cos ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    max-width: 960px;
+}
+
+  
+  .cos li {
+    float: left;
+    height: ; 
+    color: black;
+    margin: 5px; 
+    font-size: 1rem;
+  }
+
+  .cos li img {
+    height: 120px;
+    display: block;
+    opacity: 50%;
+
+  }
+
+  .cos li img:hover {
+    opacity: 100%; 
+}
+  
+  .cos li p {
+    background-color: #fff; 
+    margin: 0; 
+    display: inline-block; 
+    width: 100%;
+    height: 40px;
+    text-align: left;
+}
+
+.diagonal {
+  height: auto;
+  width: auto;
+}
+  
+.peu{
+  height: auto;
+}
+
+}
